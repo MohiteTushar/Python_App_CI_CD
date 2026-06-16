@@ -9,7 +9,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repo') {
+        stage('Clone Repo0') {
             steps {
                 git url: 'https://github.com/MohiteTushar/Python_App_CI_CD.git', branch: 'master'
             }
